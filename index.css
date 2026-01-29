@@ -1,0 +1,7 @@
+/* Base styles – Tailwind is loaded via CDN in index.html */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
