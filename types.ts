@@ -67,7 +67,3 @@ export function formatCartItemUnit(item: CartItem): string {
   return `${item.unitValue} ${unit}`;
 }
 
-export interface Message {
-  role: 'user' | 'model';
-  text: string;
-}

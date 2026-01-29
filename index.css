@@ -1,4 +1,5 @@
-/* Base styles – Tailwind is loaded via CDN in index.html */
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
 }

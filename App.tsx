@@ -6,7 +6,6 @@ import { CartItem, Product, Category, CATEGORY_UNITS, UNIT_SUBCATEGORY_LABELS, p
 import Navbar from './components/Navbar';
 import ProductCard from './components/ProductCard';
 import Cart from './components/Cart';
-import AIAssistant from './components/AIAssistant';
 import Dashboard from './pages/Dashboard';
 
 const App: React.FC = () => {
@@ -224,7 +223,6 @@ const App: React.FC = () => {
         onUpdateQuantity={updateQuantity} 
       />
 
-      <AIAssistant />
     </div>
   );
 };
